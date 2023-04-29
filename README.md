@@ -8,75 +8,115 @@ Made to fit the following heat sink.
 
 ---
 1dB attenuator
+
 R1  = DNI
+
 R2  = 2.2k
+
 R3  = DNI
+
 R4  = 1.5k
 
 R5  = 12
+
 R6  = 10
 
 R7  =  2.2k
+
 R8  =  1.5k
+
 R9  = DNI
+
 R10 = DNI 
 
 ---
 2dB attenuator
+
 R1  = DNI
+
 R2  = 820
+
 R3  = DNI
+
 R4  = 1.0k
 
 R5  = 22
+
 R6  = 24
 
 R7  =  1.0k
+
 R8  =  820
+
 R9  = DNI
+
 R10 = DNI
 
 ---
 3dB attenuator
+
 R1  = DNI
+
 R2  = 560
+
 R3  = DNI
+
 R4  = 560
 
 R5  = 33
+
 R6  = 39
 
 R7  =  560
+
 R8  =  560
+
 R9  = DNI
+
 R10 = DNI  
 
 ---
 6dB attenuator
+
 R1  = DNI
+
 R2  = 270
+
 R3  = DNI
+
 R4  = 330
 
 R5  = 68
+
 R6  = 82
 
 R7  =  270
+
 R8  =  330
+
 R9  = DNI
+
 R10 = DNI  
 
 ---
 10dB attenuator
+
 R1  = DNI
+
 R2  = 180
+
 R3  = DNI
+
 R4  = 220
 
 R5  = 150
+
 R6  = 150
 
 R7  =  180
+
 R8  =  220
+
 R9  = DNI
+
 R10 = DNI  
