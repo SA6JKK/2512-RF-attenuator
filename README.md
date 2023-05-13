@@ -1,5 +1,5 @@
 # 2512-attenuator
-RF-attenuator from 2512 resistors with both BNC and SMA connectors. Works OK from DC to 30MHz. 
+RF-attenuator from 1W 2512 size resistors with both BNC and SMA connectors. Works OK from DC to 30MHz. 
 
 ![graph](2512-Attenuator_1M-50M.png)
 ![graph](2512-Attenuator_1M-300M.png)
