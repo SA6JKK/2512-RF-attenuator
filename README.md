@@ -8,15 +8,30 @@ Measured with NanoVNA-H4 using NanoVNA saver
 
 ---
 
+PCB size: 71.5 x  25 x 1.6 mm
+
+PCB Stackup: Two layer FR-4 (No impedance control) 
+
+Traces are not 50 ohm as this is mainly for < 50 MHz use and the size of the entire PCB is thus significantly smaller than the wavelength at this frequency. 
+
+I tried to only use resistors from the E12 series as much as possible.
+
+This calculator was used, with the modification that i used two parallel resistors for each position for increased thermal handling and to achieve a resistance closer to the calculated values. 
+
+[Link to RF Attenuator calculator](https://leleivre.com/rf_pipad.html)
+
+---
+
 Made to fit the following heat sink. 
 
 > Heat Sink, 4.4 °C/W, TO-218, TO-220, TO-247, 42 mm, 38.1 mm, 25 mm
+
 > Farnell Order code 1710612
 
 ---
 1dB attenuator
 
-R1  = DNI
+R1  = Do Not Install (DNI) 
 
 R2  = 2.2k
 
