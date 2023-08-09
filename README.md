@@ -4,9 +4,11 @@ RF-attenuator from 1W 2512 size resistors with both BNC and SMA connectors. Work
 ![graph](2512-Attenuator_1M-50M.png)
 ![graph](2512-Attenuator_1M-300M.png)
 
-Measured with NanoVNA-H4 using NanoVNA saver 
+Measured with NanoVNA-H4 using NanoVNA saver.
 
 ---
+
+## PCB Specs
 
 PCB size: 71.5 x  25 x 1.6 mm
 
@@ -16,11 +18,11 @@ Traces are not 50 ohm as this is mainly for < 50 MHz use and the size of the ent
 
 I tried to only use resistors from the E12 series as much as possible.
 
-This calculator was used, with the modification that i used two parallel resistors for each position for increased thermal handling and to achieve a resistance closer to the calculated values. 
-
-[Link to RF Attenuator calculator](https://leleivre.com/rf_pipad.html)
+Two parallel resistors are used for each position for increased thermal handling and to achieve a resistance closer to the calculated values.
 
 ---
+
+## Heat Sink
 
 Made to fit the following heat sink. 
 
@@ -29,6 +31,21 @@ Made to fit the following heat sink.
 > Farnell Order code 1710612
 
 ---
+
+## Design Notes
+
+* Schematic is in the `plots` folder.
+* [Link to RF Attenuator calculator](https://leleivre.com/rf_pipad.html)
+* [Link to Parallel Resistor calculator](https://jansson.us/resistors.html)
+
+Connections:
+* `R1//R2//R3//R4` (input side, to ground)
+* `R5//R6` (top of Pi network)
+* `R7//R8//R9//R10` (output side, to ground)
+
+---
+
+## Resistor Values for Various Attenuators
 
 | Resistor | Value for 1dB Attenuator | Value for 2dB Attenuator | Value for 3dB Attenuator | Value for 6dB Attenuator | Value for 10dB Attenuator | Value for 30dB Attenuator |
 |----------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
