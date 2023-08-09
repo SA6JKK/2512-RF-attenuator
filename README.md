@@ -29,116 +29,19 @@ Made to fit the following heat sink.
 > Farnell Order code 1710612
 
 ---
-1dB attenuator
 
-R1  = Do Not Install (DNI) 
+| Resistor | Value for 1dB Attenuator | Value for 2dB Attenuator | Value for 3dB Attenuator | Value for 6dB Attenuator | Value for 10dB Attenuator |
+|----------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|
+| R1       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       |
+| R2       | 2k2                      | 820                      | 560                      | 270                      | 180                       |
+| R3       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       |
+| R4       | 1k5                      | 1k                       | 560                      | 330                      | 220                       |
+| R5       | 12                       | 22                       | 33                       | 68                       | 150                       |
+| R6       | 10                       | 24                       | 39                       | 82                       | 150                       |
+| R7       | 2k2                      | 1k                       | 560                      | 270                      | 180                       |
+| R8       | 1k5                      | 820                      | 560                      | 330                      | 220                       |
+| R9       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       |
+| R10      | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       |
 
-R2  = 2.2k
 
-R3  = DNI
-
-R4  = 1.5k
-
-R5  = 12
-
-R6  = 10
-
-R7  =  2.2k
-
-R8  =  1.5k
-
-R9  = DNI
-
-R10 = DNI 
-
----
-2dB attenuator
-
-R1  = DNI
-
-R2  = 820
-
-R3  = DNI
-
-R4  = 1.0k
-
-R5  = 22
-
-R6  = 24
-
-R7  =  1.0k
-
-R8  =  820
-
-R9  = DNI
-
-R10 = DNI
-
----
-3dB attenuator
-
-R1  = DNI
-
-R2  = 560
-
-R3  = DNI
-
-R4  = 560
-
-R5  = 33
-
-R6  = 39
-
-R7  =  560
-
-R8  =  560
-
-R9  = DNI
-
-R10 = DNI  
-
----
-6dB attenuator
-
-R1  = DNI
-
-R2  = 270
-
-R3  = DNI
-
-R4  = 330
-
-R5  = 68
-
-R6  = 82
-
-R7  =  270
-
-R8  =  330
-
-R9  = DNI
-
-R10 = DNI  
-
----
-10dB attenuator
-
-R1  = DNI
-
-R2  = 180
-
-R3  = DNI
-
-R4  = 220
-
-R5  = 150
-
-R6  = 150
-
-R7  =  180
-
-R8  =  220
-
-R9  = DNI
-
-R10 = DNI  
+DNI = Do Not Install
