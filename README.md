@@ -50,13 +50,13 @@ Connections:
 | Resistor | Value for 1dB Attenuator | Value for 2dB Attenuator | Value for 3dB Attenuator | Value for 6dB Attenuator | Value for 10dB Attenuator | Value for 30dB Attenuator |
 |----------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
 | R1       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
-| R2       | 2k2                      | 820                      | 560                      | 270                      | 180                       | 820                       |
+| R2       | 2k2                      | 820                      | 560                      | 270                      | 180                       | 100                       |
 | R3       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
-| R4       | 1k5                      | 1k                       | 560                      | 330                      | 220                       | 22k                       |
-| R5       | 12                       | 22                       | 33                       | 68                       | 150                       | 56                        |
-| R6       | 10                       | 24                       | 39                       | 82                       | 150                       | 1k                        |
-| R7       | 2k2                      | 1k                       | 560                      | 270                      | 180                       | 820                       |
-| R8       | 1k5                      | 820                      | 560                      | 330                      | 220                       | 22k                       |
+| R4       | 1k5                      | 1k                       | 560                      | 330                      | 220                       | 120                       |
+| R5       | 12                       | 22                       | 33                       | 68                       | 150                       | 1.5k                      |
+| R6       | 10                       | 24                       | 39                       | 82                       | 150                       | 1.8k                      |
+| R7       | 2k2                      | 1k                       | 560                      | 270                      | 180                       | 100                       |
+| R8       | 1k5                      | 820                      | 560                      | 330                      | 220                       | 120                       |
 | R9       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
 | R10      | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
 
