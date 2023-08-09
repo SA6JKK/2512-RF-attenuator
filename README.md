@@ -4,9 +4,11 @@ RF-attenuator from 1W 2512 size resistors with both BNC and SMA connectors. Work
 ![graph](2512-Attenuator_1M-50M.png)
 ![graph](2512-Attenuator_1M-300M.png)
 
-Measured with NanoVNA-H4 using NanoVNA saver 
+Measured with NanoVNA-H4 using NanoVNA saver.
 
 ---
+
+## PCB Specs
 
 PCB size: 71.5 x  25 x 1.6 mm
 
@@ -16,11 +18,11 @@ Traces are not 50 ohm as this is mainly for < 50 MHz use and the size of the ent
 
 I tried to only use resistors from the E12 series as much as possible.
 
-This calculator was used, with the modification that i used two parallel resistors for each position for increased thermal handling and to achieve a resistance closer to the calculated values. 
-
-[Link to RF Attenuator calculator](https://leleivre.com/rf_pipad.html)
+Two parallel resistors are used for each position for increased thermal handling and to achieve a resistance closer to the calculated values.
 
 ---
+
+## Heat Sink
 
 Made to fit the following heat sink. 
 
@@ -29,116 +31,33 @@ Made to fit the following heat sink.
 > Farnell Order code 1710612
 
 ---
-1dB attenuator
 
-R1  = Do Not Install (DNI) 
+## Design Notes
 
-R2  = 2.2k
+* Schematic is in the `plots` folder.
+* [Link to RF Attenuator calculator](https://leleivre.com/rf_pipad.html)
+* [Link to Parallel Resistor calculator](https://jansson.us/resistors.html)
 
-R3  = DNI
-
-R4  = 1.5k
-
-R5  = 12
-
-R6  = 10
-
-R7  =  2.2k
-
-R8  =  1.5k
-
-R9  = DNI
-
-R10 = DNI 
+Connections:
+* `R1//R2//R3//R4` (input side, to ground)
+* `R5//R6` (top of Pi network)
+* `R7//R8//R9//R10` (output side, to ground)
 
 ---
-2dB attenuator
 
-R1  = DNI
+## Resistor Values for Various Attenuators
 
-R2  = 820
+| Resistor | Value for 1dB Attenuator | Value for 2dB Attenuator | Value for 3dB Attenuator | Value for 6dB Attenuator | Value for 10dB Attenuator | Value for 30dB Attenuator |
+|----------|--------------------------|--------------------------|--------------------------|--------------------------|---------------------------|---------------------------|
+| R1       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
+| R2       | 2k2                      | 820                      | 560                      | 270                      | 180                       | 820                       |
+| R3       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
+| R4       | 1k5                      | 1k                       | 560                      | 330                      | 220                       | 22k                       |
+| R5       | 12                       | 22                       | 33                       | 68                       | 150                       | 56                        |
+| R6       | 10                       | 24                       | 39                       | 82                       | 150                       | 1k                        |
+| R7       | 2k2                      | 1k                       | 560                      | 270                      | 180                       | 820                       |
+| R8       | 1k5                      | 820                      | 560                      | 330                      | 220                       | 22k                       |
+| R9       | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
+| R10      | DNI                      | DNI                      | DNI                      | DNI                      | DNI                       | DNI                       |
 
-R3  = DNI
-
-R4  = 1.0k
-
-R5  = 22
-
-R6  = 24
-
-R7  =  1.0k
-
-R8  =  820
-
-R9  = DNI
-
-R10 = DNI
-
----
-3dB attenuator
-
-R1  = DNI
-
-R2  = 560
-
-R3  = DNI
-
-R4  = 560
-
-R5  = 33
-
-R6  = 39
-
-R7  =  560
-
-R8  =  560
-
-R9  = DNI
-
-R10 = DNI  
-
----
-6dB attenuator
-
-R1  = DNI
-
-R2  = 270
-
-R3  = DNI
-
-R4  = 330
-
-R5  = 68
-
-R6  = 82
-
-R7  =  270
-
-R8  =  330
-
-R9  = DNI
-
-R10 = DNI  
-
----
-10dB attenuator
-
-R1  = DNI
-
-R2  = 180
-
-R3  = DNI
-
-R4  = 220
-
-R5  = 150
-
-R6  = 150
-
-R7  =  180
-
-R8  =  220
-
-R9  = DNI
-
-R10 = DNI  
+DNI = Do Not Install
